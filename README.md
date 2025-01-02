@@ -1,27 +1,49 @@
-# React + TypeScript + Vite
+# Website Inisiasi Fakultas Teknologi Industri Universitas Atma Jaya Yogyakarta 2023
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Link: https://inisiasi-2023.web.app/
 
-Currently, two official plugins are available:
+## To Run Locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Clone the Repository
 
-## Expanding the ESLint configuration
+1. Open a terminal.
+2. Navigate to the directory where you want to clone the project:
+   ```bash
+   cd path/to/your/directory
+   ```
+3. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+   Replace `<repository-url>` with the actual URL of the GitHub repository (e.g., `https://github.com/username/repository.git`).
+4. Navigate into the cloned repository:
+   ```bash
+   cd repository-name
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+### 2. Install Dependencies
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+Install the required dependencies for the React app:
+
+```bash
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This command installs all the packages listed in the `package.json` file.
+
+---
+
+### 3. Start the Development Server
+
+Start the React app's development server:
+
+```bash
+npm start
+```
+
+- The app will typically launch in your default browser at `http://localhost:3000`.
+- If it doesn’t open automatically, you can manually visit the URL in your browser.
+
+---
